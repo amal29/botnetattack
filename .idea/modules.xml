@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Airplane Reservation System -Django/AirplaneReservation/.idea/AirplaneReservation.iml" filepath="$PROJECT_DIR$/../../Airplane Reservation System -Django/AirplaneReservation/.idea/AirplaneReservation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/BotnetAttack.iml" filepath="$PROJECT_DIR$/.idea/BotnetAttack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Web Vulnerability/PhishingWebsites/.idea/PhishingWebsites.iml" filepath="$PROJECT_DIR$/../../Web Vulnerability/PhishingWebsites/.idea/PhishingWebsites.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../TextMining/.idea/TextMining.iml" filepath="$PROJECT_DIR$/../../TextMining/.idea/TextMining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Web Vulnerability/Muthoot/WebVulnerability/.idea/WebVulnerability.iml" filepath="$PROJECT_DIR$/../../Web Vulnerability/Muthoot/WebVulnerability/.idea/WebVulnerability.iml" />
+      <module fileurl="file://E:/Angular Project/Project1/a4app/.idea/a4app.iml" filepath="E:/Angular Project/Project1/a4app/.idea/a4app.iml" />
+      <module fileurl="file://E:/Angular Project/Project2/hello-world/.idea/hello-world.iml" filepath="E:/Angular Project/Project2/hello-world/.idea/hello-world.iml" />
+    </modules>
+  </component>
+</project>

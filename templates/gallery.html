@@ -1,0 +1,215 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Botnet</title>
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Emphasize Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- // custom-theme -->
+<!--css links-->
+<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" type="text/css" media="all" /><!--bootstrap-->
+<link href="{% static 'css/font-awesome.css' %}" rel="stylesheet"><!--font-awesome-->
+<link href="{% static 'css/lightcase.css' %}" rel="stylesheet" type="text/css" />
+<link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css" media="all" /><!--stylesheet-->
+<!--//css links-->
+<!--fonts-->
+<link href="//fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+<!--//fonts-->
+</head>
+<body>
+<!-- Header -->
+<div id="home" class="banner inner-banner-w3l">
+		<div class="header-nav">
+			<nav class="navbar navbar-default">
+			<div class="header-top">
+					<div class="navbar-header logo">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<h1>
+									<a class="navbar-brand" href="index.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>S.T.A.R. Labs</a>
+								</h1>
+					</div>
+					<!-- navbar-header -->
+					</div>
+					<div class="collapse navbar-collapse cl-effect-13" id="bs-example-navbar-collapse-1">
+
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="{% url 'home' %}">Home</a></li>
+							<li><a href="{% url 'about' %}">About</a></li>
+							<li><a href="{% url 'gallery' %}" class="active">Gallery</a></li>
+							<li><a href="{% url 'loginpg' %}">Login</a></li>
+						</ul>
+
+					</div>
+					<div class="clearfix"> </div>	
+				</nav>
+							<div class="clearfix"> </div>
+		</div>
+</div>	
+<!-- //Header -->
+<!-- gallery inner -->
+<div class="inner-padding">
+	<div class="container">
+	<h3 class="heading-agileinfo">Our gallery<span>Everything has beauty, but not everyone sees it.</span></h3>
+		<div class="w3ls_portfolio_grids">
+				<div class="col-md-4 agileinfo_portfolio_grid">
+					<div class="w3_agile_portfolio_grid1">
+						<a href="{% static 'images/s1.jpg' %}" class="showcase" data-rel="lightcase:myCollection:slideshow">
+							<div class="agileits_portfolio_sub_grid agileits_w3layouts_team_grid">	
+								<div class="w3layouts_port_head">
+								</div>
+								<img src="{% static 'images/s1.jpg' %}" alt=" " class="img-responsive">
+							</div>
+						</a>
+					</div>
+					<div class="w3_agile_portfolio_grid1">
+						<a href="{% static 'images/s2.jpg' %}" class="showcase" data-rel="lightcase:myCollection:slideshow">
+							<div class="agileits_portfolio_sub_grid agileits_w3layouts_team_grid">	
+								<div class="w3layouts_port_head">
+								</div>
+								<img src="{% static 'images/s2.jpg' %}" alt=" " class="img-responsive">
+							</div>
+						</a>
+					</div>
+					<div class="w3_agile_portfolio_grid1">
+						<a href="{% static 'images/s3.jpg' %}" class="showcase" data-rel="lightcase:myCollection:slideshow">
+							<div class="agileits_portfolio_sub_grid agileits_w3layouts_team_grid">	
+								<div class="w3layouts_port_head">
+								</div>
+								<img src="{% static 'images/s3.jpg' %}" alt=" " class="img-responsive">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4 agileinfo_portfolio_grid">
+					<div class="w3_agile_portfolio_grid1">
+						<a href="{% static 'images/s4.jpg' %}" class="showcase" data-rel="lightcase:myCollection:slideshow">
+							<div class="agileits_portfolio_sub_grid agileits_w3layouts_team_grid">	
+								<div class="w3layouts_port_head">
+								</div>
+								<img src="{% static 'images/s4.jpg' %}" alt=" " class="img-responsive">
+							</div>
+						</a>
+					</div>
+					<div class="w3_agile_portfolio_grid1">
+						<a href="{% static 'images/s5.jpg' %}" class="showcase" data-rel="lightcase:myCollection:slideshow">
+							<div class="agileits_portfolio_sub_grid agileits_w3layouts_team_grid">	
+								<div class="w3layouts_port_head">
+								</div>
+								<img src="{% static 'images/s5.jpg' %}" alt=" " class="img-responsive">
+							</div>
+						</a>
+					</div>
+					<div class="w3_agile_portfolio_grid1">
+						<a href="{% static 'images/s6.jpg' %}" class="showcase" data-rel="lightcase:myCollection:slideshow">
+							<div class="agileits_portfolio_sub_grid agileits_w3layouts_team_grid">	
+								<div class="w3layouts_port_head">
+								</div>
+								<img src="{% static 'images/s6.jpg' %}" alt=" " class="img-responsive">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4 agileinfo_portfolio_grid">
+					<div class="w3_agile_portfolio_grid1">
+						<a href="{% static 'images/s7.jpg' %}" class="showcase" data-rel="lightcase:myCollection:slideshow">
+							<div class="agileits_portfolio_sub_grid agileits_w3layouts_team_grid">	
+								<div class="w3layouts_port_head">
+								</div>
+								<img src="{% static 'images/s7.jpg' %}" alt=" " class="img-responsive">
+							</div>
+						</a>
+					</div>
+					<div class="w3_agile_portfolio_grid1">
+						<a href="{% static 'images/s8.jpg' %}" class="showcase" data-rel="lightcase:myCollection:slideshow">
+							<div class="agileits_portfolio_sub_grid agileits_w3layouts_team_grid">	
+								<div class="w3layouts_port_head">
+								</div>
+								<img src="{% static 'images/s8.jpg' %}" alt=" " class="img-responsive">
+							</div>
+						</a>
+					</div>
+					<div class="w3_agile_portfolio_grid1">
+						<a href="{% static 'images/s9.jpg' %}" class="showcase" data-rel="lightcase:myCollection:slideshow">
+							<div class="agileits_portfolio_sub_grid agileits_w3layouts_team_grid">	
+								<div class="w3layouts_port_head">
+								</div>
+								<img src="{% static 'images/s9.jpg' %}" alt=" " class="img-responsive">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+<div class="contact-w3ls ">
+<div class="contact-top-w3-agile">
+</div>
+	<div class="container">
+		<h2 class="heading-agileinfo white-w3ls">Contact Us<span class="black-w3ls">Welcome to S.T.A.R Labs. We are glad to have you around.</span></h2>
+		<ul class="w3_address">
+			<li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Central City, Missouri.</span></li>
+			<li><i class="fa fa-envelope-o" aria-hidden="true"></i><span>info@star.com</a><br>help@star.com</a></span></li>
+			<li><i class="fa fa-volume-control-phone" aria-hidden="true"></i><span>+1234 567 567<br>+1567 567 890</span></li>
+			<li><i class="fa fa-comments-o" aria-hidden="true"></i><span>Contact</a></span></li>
+			</ul>
+			<div class="clearfix"></div>
+
+	</div>
+</div>
+<!--//footer -->
+	<!-- //gallery inner -->
+<!-- js -->
+<script type="text/javascript" src="{% static 'js/jquery-2.1.4.min.js' %}"></script>
+<!--//js -->
+<!-- light-case -->
+	<script src="{% static 'js/lightcase.js' %}"></script>
+	<script src="{% static 'js/jquery.events.touch.js' %}"></script>
+	<script>
+		$('.showcase').lightcase();
+	</script>
+<!-- //light-case -->
+<script src="{% static 'js/SmoothScroll.min.js' %}"></script>
+<!--Scrolling-top -->
+<script type="text/javascript" src="{% static 'js/move-top.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/easing.js' %}"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!--//Scrolling-top -->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+<script type="text/javascript" src="{% static 'js/bootstrap-3.1.1.min.js' %}"></script>
+</body>
+</html>
